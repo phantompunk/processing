@@ -10,7 +10,7 @@ function onMouseMove(event) {
     };
     myText.rotate(Math.random()*360);
     // myText.postion = event.point;
-    myText.content = emojis[Math.floor(Math.random()*emojis.length-1)];
+    myText.content = emojis[Math.floor(Math.random()*emojis.length-1)]+"\uFE0E";
     console.log("Index " + Math.floor(Math.random()*emojis.length-1) +
      ": " + myText.content);
 }
